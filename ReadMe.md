@@ -15,7 +15,8 @@ To get started create a virtual environment in Python 3.8+:
 2. Create a new virtual environment: `virtualenv orbit`
 3. Activate the virtual environment: `source orbit/venv/bin/activate`
 4. Now inside the virtual environment, install required packages: `pip install -r requirements.txt`
-5. Install additional packages that you might want to use to solve the challenge: `pip install PACKAGE_NAME`
-6. When you're done, be sure to freeze your virtual environment in a new requirements.txt file so we can recreate your results: `pip freeze > requirements.txt`
+5. Add your implementation to  **Evaluate_Generated_Masks.py**. Only put code betweeen the '# >> INSERT ANALYTICAL WATER SEGMENTATION CODE HERE <<' and '# >> END ANALYTICAL WATER SEGMENTATION CODE <<' comments, leave everything else untouched. 
+6. Install additional packages that you might want to use to solve the challenge: `pip install PACKAGE_NAME`
+7. When you're done, be sure to freeze your virtual environment in a new requirements.txt file so we can recreate your results: `pip freeze > requirements.txt`
 
 **Source**: All images are from NASA. Ground truth masks were created manually for this challenge.
